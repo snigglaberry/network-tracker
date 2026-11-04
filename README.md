@@ -4,7 +4,7 @@ very basic network tracker, tracks network requests made by apps
 
 good for checking for malware i guess🤷‍♂️
 <p align="center">
-  <img src="image.png" width="100%">
+  <img src="image.png" width="70%">
 </p>
 
 ## Compile
