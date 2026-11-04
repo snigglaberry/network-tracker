@@ -10,13 +10,11 @@ good for checking for malware i guess🤷‍♂️
 2. Open a terminal in this folder and install the requirements:
 
    ```powershell
-   python -m pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. Build the executable:
 
    ```powershell
-   python -m PyInstaller --noconfirm app.spec
+   pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." app.py
    ```
-
-The executable will be in `dist\app.exe`.
